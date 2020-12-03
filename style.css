@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+    width: 100%;
+   
+}
+
+header {
+    display: grid;
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 15% 20% 65%;
+    grid-template-columns: 100%;   
+}
+
+.black {
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+   
+}
+
+}
+
+.pink {
+    background-color: pink;
+}
+.yellow {
+    background-color: green;
+}
+.three-grids {
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: 100%;
+justify-content: center;
+text-align: center;
+height: 100%;
+width: 100%;
+align-items: center;
+background-color: teal;
+
+}
+
+.airbnb {
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.middle {
+border: solid 1px black;
+height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side {
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+}
